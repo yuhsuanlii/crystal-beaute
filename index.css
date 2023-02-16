@@ -150,7 +150,8 @@ input[type=number]:focus,
 .thankyou {
     font-family: 'FakePearl-Regular';
     line-height: 14px;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 700;
     /* margin-top: 5px; */
     /* color: #5B5B5B; */
     color: #B99B6B;
