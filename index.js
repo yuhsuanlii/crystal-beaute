@@ -15,18 +15,18 @@ function calreal() {
     const cal = total + consum - surgery - maintain - therapy - staff - refund - inventory;
 
     if (cal >= 6500000) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">3%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.03) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.03) * 0.4) / people)+`</span>
+        <span>固定獎金總額</span>
+        <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.03) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.03) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '3%';
@@ -34,18 +34,18 @@ function calreal() {
         // fixpeople.innerText = ((cal * 0.03) * 0.4) / people;
 
     } else if (6000000 <= cal && cal <= 6499999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">2.6%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.026) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.026) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.026) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.026) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '2.6%';
@@ -53,18 +53,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.026) * 0.4) / people);
 
     } else if (5500000 <= cal && cal <= 5999999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">2.5%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.025) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.025) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.025) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.025) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '2.5%';
@@ -72,18 +72,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.025) * 0.4) / people);
 
     } else if (5000000 <= cal && cal <= 5499999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">2.4%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.024) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.024) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.024) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.024) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '2.4%';
@@ -91,18 +91,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.024) * 0.4) / people);
 
     } else if (4500000 <= cal && cal <= 4999999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">2.3%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.023) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.023) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.023) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.023) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '2.3%';
@@ -110,18 +110,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.023) * 0.4) / people);
 
     } else if (4000000 <= cal && cal <= 4499999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">2.2%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.022) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.022) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.022) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.022) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '2.2%';
@@ -129,18 +129,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.022) * 0.4) / people);
 
     } else if (3500000 <= cal && cal <= 3999999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">1.9%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.019) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.019) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.019) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.019) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '1.9%';
@@ -148,18 +148,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.019) * 0.4) / people);
 
     } else if (3000000 <= cal && cal <= 3499999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">0.8%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.008) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.008) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.008) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.008) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal
         // percent.innerText = '0.8%';
@@ -167,18 +167,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.008) * 0.4) / people);
 
     } else if (2500000 <= cal && cal <= 2999999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">0.5%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.005) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.005) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.005) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.005) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal;
         // percent.innerText = '0.5%';
@@ -186,18 +186,18 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.005) * 0.4) / people);
 
     } else if (2000000 <= cal && cal <= 2499999) {
-        result.innerHTML = 
-        `<div class="rbox">
+        result.innerHTML =
+            `<div class="rbox">
         <span>扣除後營業額</span>
         <span>獎金區間</span>
-        <span id="real">`+cal+`</span>
+        <span id="real">`+ cal + `</span>
         <span id="percent">0.3%</span>
     </div>
     <div class="rbox">
-        <span>固定將金總額</span>
-        <span>均分</span>
-        <span id="fixed">`+Math.round((cal * 0.003) * 0.4)+`</span>
-        <span id="fixpeople">`+Math.round(((cal * 0.003) * 0.4) / people)+`</span>
+    <span>固定獎金總額</span>
+    <span>每人均分</span>
+        <span id="fixed">`+ Math.round((cal * 0.003) * 0.4) + `</span>
+        <span id="fixpeople">`+ Math.round(((cal * 0.003) * 0.4) / people) + `</span>
     </div>`
         // real.innerText = cal;
         // percent.innerText = '0.3%';
