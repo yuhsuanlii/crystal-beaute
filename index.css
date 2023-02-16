@@ -46,7 +46,7 @@ body {
 
 .title {
     margin: auto;
-    border-bottom: 2px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
     width: 95%;
     padding-bottom: 15px;
     font-family: 'Pacifico', cursive;
@@ -81,7 +81,7 @@ table {
     font-size: 12px;
     padding-top: 10px;
     padding-bottom: 20px;
-    border-bottom: 2px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
 }
 
 .right {
@@ -200,7 +200,7 @@ input[type=number],
 }
 
 .dash {
-    border-bottom: #F1DBBF dotted 2px;
+    border-bottom: #F1DBBF dashed 1px;
     height: 10px;
     margin-bottom: 15px;
 }
