@@ -174,10 +174,6 @@ input[type=number]:focus,
     /* background-color: #B99B6B; */
 }
 
-#people {
-    padding-left: 20px;
-}
-
 input[type=number],
 #people {
     font-family: FakePearl-Regular;
@@ -192,10 +188,6 @@ input[type=number],
     font-size: 14px;
     border-right: 3px solid #F1DBBF;
     border-bottom: 3px solid #F1DBBF;
-}
-
-input[type=number] {
-    padding-left: 20px;
 }
 
 .dash {
