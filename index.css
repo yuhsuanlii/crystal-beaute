@@ -179,7 +179,7 @@ input[type=number],
 #people {
     font-family: FakePearl-Regular;
     margin-left: 10px;
-    padding-right: 20px;
+    padding-left: 10px;
     /* background-color: #EFE8E2; */
     background-color: rgb(249, 240, 228);
     border-radius: 30px;
@@ -206,6 +206,7 @@ input[type=number],
     font-family: FakePearl-Regular;
     width: 260px;
     margin: auto;
+    padding-top: 20px;
     /* background-color: rgb(249, 240, 228);
     border-radius: 20px;
     padding: 15px;
@@ -222,7 +223,6 @@ input[type=number],
 .btn {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 20px;
 }
 
 #real,
@@ -232,5 +232,14 @@ input[type=number],
     color: #698269;
     font-weight: 700;
     font-size: 20px;
+}
+
+table{
+    /* background-color: #698269; */
+    margin-top: -20px;
+}
+
+.sign.center{
+    padding-top: -50px;
 }
 
