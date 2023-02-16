@@ -205,7 +205,7 @@ function calreal() {
         // fixpeople.innerText = Math.round(((cal * 0.003) * 0.4) / people);
 
     } else {
-        result.innerText = '扣除後營業額：' + cal + '，未達發放獎金標準。'
+        result.innerText = '扣除後營業額：' + cal + '，未達獎金標準。'
     }
 }
 

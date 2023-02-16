@@ -17,13 +17,13 @@ body {
     margin: 50px auto;
 }
 
-.tab {
+/* .tab {
     width: 350px;
     margin: 0 auto;
     height: 10px;
     background-color: #646262;
     border-radius: 50px
-}
+} */
 
 .receipt {
     background-color: #FAFAF9;
@@ -31,20 +31,24 @@ body {
     width: 330px;
     /* height: 300px; */
     margin: -5px auto;
-    border-radius: 5px 5px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
     -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .paper {
-    border-top: 1px dashed #ccc;
+    /* border-top: 1px dashed #ccc; */
     width: 96%;
     margin: 0 auto;
 }
 
 
 .title {
+    margin: auto;
+    border-bottom: 2px dashed #ccc;
+    width: 95%;
+    padding-bottom: 15px;
     font-family: 'Pacifico', cursive;
     color: #698269;
     /* color: #B99B6B; */
@@ -55,8 +59,8 @@ body {
     /* float: left; */
     font-size: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* .date {
@@ -77,7 +81,7 @@ table {
     font-size: 12px;
     padding-top: 10px;
     padding-bottom: 20px;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 2px dashed #ccc;
 }
 
 .right {
@@ -91,6 +95,8 @@ table {
 
 input[type=button] {
     /* background-color: #B99B6B; */
+    font-family: 'Pacifico', cursive;
+    width: 110px;
     background-color: #AA5656;
     outline: none;
     border: 1px solid #ccc;
@@ -102,14 +108,16 @@ input[type=button] {
     background-image: url("http://dc707.4shared.com/img/zr6_o80l/s3/13ffd4de138/cart.png");
     background-repeat: no-repeat;
     background-position: 5px center;
+    font-size: 16px;
 }
 
 input[type=button]:hover {
-    -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    /* -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); */
     cursor: pointer;
     color: #f0f0f0;
+    opacity: 0.8;
 }
 
 input[type=number]::-webkit-outer-spin-button,
@@ -192,7 +200,7 @@ input[type=number],
 }
 
 .dash {
-    border-bottom: #ccc dashed 1px;
+    border-bottom: #F1DBBF dotted 2px;
     height: 10px;
     margin-bottom: 15px;
 }
@@ -222,7 +230,7 @@ input[type=number],
 
 .btn {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 #real,
